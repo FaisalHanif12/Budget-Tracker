@@ -170,15 +170,7 @@ function Expenses() {
           <SidebarNav />
         </Col>
         <Col md={10} className="main">
-        <BreadcrumbAndProfile 
-          username="Mr. French Pitbull" 
-          role="Freelancer React Developer" 
-          pageTitle="Expenses"
-          breadcrumbItems={[
-          { name: 'Dashboard', path: '/dashboard', active: false },
-          { name: 'Expenses', path: '/expenses', active: true }
-          ]}
-          />
+        
             {/* Search Bar */}
             <InputGroup className="mb-3">
             <FormControl

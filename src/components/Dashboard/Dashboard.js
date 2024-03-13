@@ -26,16 +26,7 @@ function Dashboard({ totalIncomes, totalExpenses }) {
       <SidebarNav />
     </Col>
     <Col md={10} className="main-content main">
-      <BreadcrumbAndProfile 
-        username="Mr. French Pitbull" 
-        role="Freelancer React Developer" 
-        pageTitle="Dashboard"
-        breadcrumbItems={[
-          { name: 'Dashboard', path: '/dashboard', active: true },
-          { name: 'Welcome', path: '/welcome', active: true }
-        ]}
-      />
-
+    
       {/* Row for the three buttons */}
       <Row className="mb-3">
         <Col md={4}>
